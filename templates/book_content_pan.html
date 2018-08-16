@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{{title}}</title>
+<style type="text/css">
+*{margin:0;padding:0;}
+body{font-size:14px;color:#444;font-family:"微软雅黑",Arial;background:#fff;}
+a{color:#444;text-decoration: none;}
+a:hover{color:#065BC2;text-decoration: none;}
+.clear{clear:both;}
+img{border:none;vertical-align: middle;}
+ul{list-style: none;}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript">
+//首先给窗口绑定事件scroll
+$(window).bind("scroll",function() {
+    // 然后判断窗口的滚动条是否接近页面底部，这里的20可以自定义
+    if ($(document).scrollTop() + $(window).height() > $(document).height() - 20) {
+              //取Ajax返回结果
+              htmlobj=$.ajax({url:"/book_content/{{title}}",async:false});
+               //显示Ajax返回结果
+               $("#container").append(htmlobj.responseText);
+    }
+})
+/*
+reset height
+$(document).ready(function(){
+    $('body,html').animate({scrollTop:0});
+});
+*/
+</script>
+
+    <div id="container">
+        {{content_text}}
+    </div>
+</body>
+</html>
