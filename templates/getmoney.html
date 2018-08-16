@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>红包</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="/static/js/mathlib-min.js"></script>
+    <script src="/static/js/k3d-min.js"></script>
+    <script src="/static/js/radiation.js"></script>
+	<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body style="background-color: rgba(0,0,0,0);overflow:hidden;">
+<canvas id="canvas" style="position: relative; background-color: #fed261;"></canvas>
+    <div class="container" id="container">
+        <div class="RedBox">
+            <div class="topcontent">
+                <h2 class="bounceInDown">恭喜你获得流量</h2>
+                <span class="text flash">$<b>{{money}}</b></span>
+                <div class="avatar">
+                    <div id="open"><img src="images/user8.jpg" alt="" width="80" height="80" class="zoomIn"></div>
+                </div>
+                <div class="description1 flipInX">查看红包记录</div>
+                <div class="description2">查看红包</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var oOpen = document.getElementById("open");
+        var oClose = document.getElementById("open");
+        var oContainer = document.getElementById("container");
+
+        oChai.onclick = function (){
+            oChai.setAttribute("class", "rotate");
+        };
+    </script>
+</body>
+</html>

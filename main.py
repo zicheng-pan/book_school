@@ -12,6 +12,17 @@ def lxd_list():
     return render_template("book_list.html",file_list = file_list)
 
 file_generator = None
+@app.route('/testpage/<book_name>')
+def getBook_detailss(book_name):
+    book_name = book_name +'.txt'
+    if not session.get('user'):
+        file_generator = fileUtil.getFileContent(os.path.join(file_path, book_name))
+        session['user']="user"
+        user_dict['user'] = file_generator
+    content = user_dict['user'].__next__()
+    return render_template("book_content.html",content_text = content,title=book_name)
+
+file_generator = None
 @app.route('/book_content/<book_name>')
 def getBook_details(book_name):
     print('request book:'+book_name)
@@ -23,6 +34,16 @@ def getBook_details(book_name):
     content = user_dict['user'].__next__()
     return render_template("book_content_pan.html",content_text = content,title=book_name)
 
+@app.route('/getredmoney/<time>')
+def getMoney(time):
+    print("time:"+str(time))
+    #TODO count money
+    #TODO insert into database
+    # del data
+    return render_template("getmoney.html",money=time)
+
+
+# del data source
 if __name__ == '__main__':
     app.secret_key = 'super secret key'
 
