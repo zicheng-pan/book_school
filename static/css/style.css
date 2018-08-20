@@ -62,7 +62,7 @@ html{
 }
 .topcontent{
 	height: 280px;
-	background-image: url("../images/red_02.png");
+	background-image: url("../image/red_02.png");
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -88,7 +88,7 @@ html{
 	animation-duration: 3s;
 }
 .text{
-	color: #ff605e;
+	color: red;
 	font-weight: bold;
 	font-size: 1.5rem;
 	-webkit-animation-duration: 4s;
@@ -96,7 +96,7 @@ html{
 }
 .text b{
 	font-size: 2rem;
-    color: #fff;
+    color: red;
 }
 .description1{
 	margin: 40px 50px;

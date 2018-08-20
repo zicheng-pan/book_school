@@ -2,16 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b596b6a5-db46-4930-be93-633e675d5e6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/red_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/k3d-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/mathlib-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/radiation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/getmoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school_book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school_book.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/book_content/copycode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/book_content/copycode.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/book_content/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/book_content/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/lib/jquery-1.11.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/lib/jquery-1.11.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/lib/jquery.base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/lib/jquery.base64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/lib/jquery.fliptimer.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/lib/jquery.fliptimer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/lib/jquery.jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/lib/jquery.jsonp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/lib/touche.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/lib/touche.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script/p-pull-refresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script/p-pull-refresh.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_content_pan.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_content_pan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/getmoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/getmoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/lishi/《台湾通史》上册_连横_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/lishi/《台湾通史》上册_连横_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/lishi/《台湾通史》下册_连横_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/lishi/《台湾通史》下册_连横_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/丁香花_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/丁香花_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/三春争及初春景_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/三春争及初春景_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/中国知青梦_邓贤_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/中国知青梦_邓贤_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/乾隆韵事_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/乾隆韵事_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/任公与刁间_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/任公与刁间_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/八大胡同_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/八大胡同_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/八大胡同艳闻秘事_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/八大胡同艳闻秘事_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/埃及三部曲一：谋杀金字塔_克里斯提昂·贾克_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/埃及三部曲一：谋杀金字塔_克里斯提昂·贾克_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/埃及三部曲三：首相的正义_克里斯提昂·贾克_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/埃及三部曲三：首相的正义_克里斯提昂·贾克_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/大浪淘沙李鸿章_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/大浪淘沙李鸿章_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/恩怨江湖_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/恩怨江湖_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/慈禧全传_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/慈禧全传_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/明朝的皇帝_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/明朝的皇帝_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/明末四公子_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/明末四公子_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/李娃_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/李娃_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/李鸿章_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/李鸿章_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/柏台故事_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/柏台故事_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/汉宫名媛王昭君_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/汉宫名媛王昭君_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/清官册、假官真做_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/清官册、假官真做_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/清朝的皇帝_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/清朝的皇帝_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/状元娘子_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/状元娘子_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/玉垒浮云_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/玉垒浮云_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/粉墨春秋汪精卫_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/粉墨春秋汪精卫_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/红顶商人胡雪岩_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/红顶商人胡雪岩_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/红顶商人胡雪岩全传_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/红顶商人胡雪岩全传_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/缇萦_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/缇萦_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/荆轲_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/荆轲_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/草莽英雄_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/草莽英雄_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/董小宛_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/董小宛_高阳_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/醉枕江山_月关_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/醉枕江山_月关_TXT小说天堂.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史小说/风尘三侠_高阳_TXT小说天堂.txt" beforeDir="false" afterPath="$PROJECT_DIR$/历史小说/风尘三侠_高阳_TXT小说天堂.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="323">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
@@ -37,10 +76,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/book_content/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="getmoney.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/getmoney.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="232">
               <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
             </state>
           </provider>
@@ -49,8 +97,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+            <state relative-caret-position="619">
+              <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -58,8 +106,8 @@
       <file leaf-file-name="book_content_pan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/book_content_pan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="74" />
+            <state relative-caret-position="419">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -67,17 +115,17 @@
       <file leaf-file-name="book_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/book_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book_content.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book_content.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/book_content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="122">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,11 +134,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/werkzeug/local.py">
+      <file leaf-file-name="fliptimer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/book_content/fliptimer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6840">
-              <caret line="363" column="4" selection-start-line="363" selection-start-column="4" selection-end-line="363" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fliptimer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/script/lib/jquery.fliptimer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="264" column="20" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -98,29 +155,11 @@
       <file leaf-file-name="getFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/getFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
+            <state relative-caret-position="544">
               <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="typing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/typing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43149">
-              <caret line="2278" column="8" selection-start-line="2278" selection-start-column="8" selection-end-line="2278" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -144,6 +183,16 @@
       <find>领取红包</find>
       <find>text flash</find>
       <find>.text</find>
+      <find>console</find>
+      <find>#D0D052</find>
+      <find>hours</find>
+      <find>time</find>
+      <find>flipTimer</find>
+      <find>D0D052</find>
+      <find>cal</find>
+      <find>getInputTime</find>
+      <find>/getredmoney</find>
+      <find>&lt;a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,18 +204,21 @@
         <option value="$PROJECT_DIR$/util/getFile.py" />
         <option value="$PROJECT_DIR$/templates/demo-2.html" />
         <option value="$PROJECT_DIR$/templates/book_list.html" />
-        <option value="$PROJECT_DIR$/templates/book_content.html" />
         <option value="$PROJECT_DIR$/templates/getmoney.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/static/css/book_content/reset.css" />
+        <option value="$PROJECT_DIR$/templates/book_content_pan.html" />
+        <option value="$PROJECT_DIR$/static/script/lib/jquery.fliptimer.js" />
+        <option value="$PROJECT_DIR$/templates/book_content.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="395" />
-    <option name="y" value="-24" />
+    <option name="y" value="-25" />
     <option name="width" value="1400" />
-    <option name="height" value="778" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,6 +247,13 @@
               <item name="book_school" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_school" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="book_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_school" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,6 +261,19 @@
               <item name="book_school" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_school" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_school" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_school" type="b2602c69:ProjectViewProjectNode" />
@@ -314,11 +386,11 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.22523117" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2247191" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -334,9 +406,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.22523117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2247191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,6 +442,79 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/getmoney.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_content_pan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/getFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38607">
+          <caret line="2278" column="8" selection-start-line="2278" selection-start-column="8" selection-end-line="2278" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
@@ -378,13 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6840">
-          <caret line="363" column="4" selection-start-line="363" selection-start-column="4" selection-end-line="363" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/werkzeug/local.py" />
     <entry file="file://$PROJECT_DIR$/util/getFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -409,30 +548,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1489797211/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6441">
-          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1489797211/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6441">
-          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1489797211/builtins.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1489797211/builtins.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43149">
+        <state relative-caret-position="38607">
           <caret line="2278" column="8" selection-start-line="2278" selection-start-column="8" selection-end-line="2278" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="544">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
         </state>
       </provider>
@@ -440,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/templates/demo-2.html" />
     <entry file="file://$PROJECT_DIR$/util/getFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="544">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="e#14#23#0" expanded="true" />
@@ -448,68 +575,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6840">
-          <caret line="363" column="4" selection-start-line="363" selection-start-column="4" selection-end-line="363" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="2308" selection-start-line="2308" selection-end-line="2308" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/werkzeug/local.py" />
+    <entry file="file://$PROJECT_DIR$/../my-git/lxdui/venv/Lib/site-packages/flask/app.py" />
     <entry file="file://$PROJECT_DIR$/templates/book_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book_content_pan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="527">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/k3d-min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/book_content/fliptimer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/script/lib/jquery.fliptimer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="264" column="20" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/book_content/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/getmoney.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="232">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+        <state relative-caret-position="619">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/templates/book_content_pan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="419">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/book_content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="122">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
           </folding>
         </state>
       </provider>

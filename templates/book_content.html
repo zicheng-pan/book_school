@@ -19,7 +19,7 @@
 					<div class="minutes"></div>
 					<div class="seconds"></div>
 				</div>
-				<a href="/getredmoney/30000">领取红包</a>
+				<a href="/getredmoney/" id="getMoney">领取红包</a>
 			</div>
 
 			<div id="xiaoshuo_chapter_title"></div>
@@ -94,39 +94,38 @@
 	</body>
 	<script src="/static/script/lib/jquery.fliptimer.js"></script>
 	<script>
-		// 获取距离页面顶部的距离
+		//getReading time
+		var d = new Date();
 
-		//倒计时10秒
-//		$(function(){
-//			var d = new Date();
-//			var myDate = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + (d.getSeconds() + 10);
-//
-//			$('.dowebok').flipTimer({
-//				direction: 'down',
-//				date: myDate,
-//				callback: function(){
-//					alert('倒计时结束！');
-//				}
-//			});
-//		});
-		//当前时间
-//		$(function(){
-//			$('.dowebok').flipTimer({
-//				seconds: true
-//			});
-//		});
+		$("#getMoney").click(function(){
+			temp_date = new Date();
+			sends = (parseInt(temp_date.getHours()) - parseInt(d.getHours()))*3600+(temp_date.getMinutes() - d.getMinutes())*60 + (temp_date.getSeconds() - d.getSeconds());
+			if (parseInt(sends) > 3*60 && parseInt(sends) < 3600){
+				time = $(this).attr('href') + sends
+				console.log($(this).attr('href'));
+				$(this).attr('href',time)
+				return true;
+			}
+			alert("阅读时间过短，请认真阅读")
+
+
+			return false;
+		});
+
+
+
 		$(function(){
-			var d = new Date();
+
 			var myDate = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + (d.getSeconds()-1);
 			console.log(myDate)
 
-			$('.dowebok').flipTimer({
+			obj = $('.dowebok').flipTimer({
 				direction: 'up',
 				date:myDate
 			});
+
 		});
-	</script>
-	<script>
+
 
 $(window).bind("scroll",function() {
     // 然后判断窗口的滚动条是否接近页面底部，这里的20可以自定义
@@ -138,5 +137,161 @@ $(window).bind("scroll",function() {
     }
 });
 
+		</script>
+		<script>
+			(function() {'use strict';
+				var Util = (function() {
+					var prefix = 'ficiton_reader_';
+					var StorageGetter = function(key) {
+						return localStorage.getItem(prefix + key);
+					}
+					var StorageSetter = function(key, val) {
+						return localStorage.setItem(prefix + key, val);
+					}
+					var getBSONP = function(url,callback){
+						return $.jsonp({
+							url,
+							cache:true,
+							callback : "duokan_fiction_chapter",
+							success : function(result) {
+								
+								var data = $.base64.decode(result);
+								var json = decodeURIComponent(escape(data));
+								// debugger
+								callback(json);
+							}
+						});
+					};
+
+					return {
+						getBSONP,
+						StorageSetter,
+						StorageGetter
+					}
+				})();
+
+				var Dom = {
+					top_nav:$('#top-nav'),
+					buttom_nav:$('.bottom_nav'),
+					font_container:$('.font-container'),
+					font_button:$('#font-button')
+				} 
+				var Win = $(window);
+				var Doc = $(document);
+				var readerUI;  //提成全局变量
+				var RootContainer = $('#xiaoshuo_container');
+				var initFontSize = Util.StorageGetter('font-size');
+				initFontSize = parseInt(initFontSize);
+				if (!initFontSize) {
+					initFontSize =20; 
+				}
+				RootContainer.css('font-size',initFontSize);
+				// var initLineHeight = 24;
+
+
+				function main(){
+					EventHanlder();
+				}
+				function EventHanlder(){
+					//交互事件绑定
+					//上下栏显示点击交互
+					$('#action-mid').click(function(){
+						if (Dom.top_nav.css('display') == 'none') {
+							Dom.top_nav.show();
+							Dom.buttom_nav.show();	
+						}else{
+							Dom.top_nav.hide();
+							Dom.buttom_nav.hide();
+							Dom.font_container.hide();
+						}
+					});
+					Dom.font_button.click(function(){
+						// console.log("123123");
+						if(Dom.font_container.css('display') == 'none'){
+							Dom.font_container.show();
+							Dom.font_button.addClass('current');
+						}else{
+							Dom.font_container.hide();
+							Dom.font_button.removeClass('current');
+						}
+					});
+
+					$('#night_icon').click(function(){
+						//触发背景切换事件
+						$('#night_icon').css("display","none");
+						$('#day_icon').css("display","block");
+						RootContainer.css('background','black');
+						RootContainer.css('color','#222');
+					});
+					$('#day_icon').click(function(){
+						//触发背景切换事件
+						$('#night_icon').css("display","block");
+						$('#day_icon').css("display","none");
+						RootContainer.css('background','#fff');
+						RootContainer.css('color','black');
+					});
+					$('#color1').click(function(){
+						//触发背景切换事件
+						RootContainer.css('background','#D0D052');
+						RootContainer.css('color','#222');
+					});
+					$('#color2').click(function(){
+						//触发背景切换事件
+						RootContainer.css('background','#222');
+						RootContainer.css('color','#fff');
+					});
+					$('#color3').click(function(){
+						//触发背景切换事件
+						RootContainer.css('background','#a28c63');
+						RootContainer.css('color','#222');
+					});
+					$('#color4').click(function(){
+						//触发背景切换事件
+						RootContainer.css('background','#123');
+						RootContainer.css('color','black');
+					});
+					$('#large-font').click(function(){
+						console.log(initFontSize);
+						if (initFontSize > 18) {
+							return;
+						}
+						initFontSize += 4;
+						RootContainer.css('font-size',initFontSize);
+						Util.StorageSetter('font-size',initFontSize);
+					});
+					$('#small-font').click(function(){
+						console.log(initFontSize);
+						if (initFontSize < 12) {
+							return;
+						}
+						initFontSize -= 3;
+						RootContainer.css('font-size',initFontSize);
+						Util.StorageSetter('font-size',initFontSize);
+					});
+
+					$('#prev_button').click(function(){
+						//获得章节的翻页数据  并渲染
+						readerModel.prenChapter(function(data){
+							readerUI(data);
+						});
+						document.documentElement.scrollTop = document.body.scrollTop =0;
+					});
+
+					$('#next_button').click(function(){
+						readerModel.nextChapter(function(data){
+							readerUI(data);
+						});
+						document.documentElement.scrollTop = document.body.scrollTop =0;
+					});
+					Win.scroll(function(){
+						Dom.top_nav.hide();
+						Dom.buttom_nav.hide();
+						Dom.font_container.hide();
+					})
+				};
+
+				main();
+
+			})();
 		</script>
 </html>

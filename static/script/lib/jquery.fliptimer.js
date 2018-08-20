@@ -1,3 +1,4 @@
+var caltime=0;
 (function($) {
 
   /**
@@ -14,7 +15,7 @@
       this.element.addClass('flipTimer');
     }
 
-    // attach users options to instance
+    // attach users options to instancre
     this.userOptions = options;
 
     // attach default options to instance
@@ -260,6 +261,8 @@
           }
           if (_this.options.days) _this.increaseDigit(_this.options.days);
         }
+		// time
+		this.caltime = _this.hours*60*60+_this.minutes*60+_this.seconds;
       },1000);
     },
 
